@@ -1,2 +1,43 @@
 @import 'global.css';
 @import 'header.css';
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container{
+    flex: 1;
+}
+
+.content-top-part-container{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.content-top-part-title{
+    font-size: 5vh;
+    color: chocolate;
+    font-weight: bolder;
+    padding: 4vh 1vw;
+}
+
+.content-top-part-description{
+    padding: 4vh 1vw;
+}
+
+.content-top-part-categories{
+    display: flex;
+}
+
+.content-top-part-category{
+    flex: 1;
+    background-color: saddlebrown;
+    color: white;
+    margin: 1vh 1vw;
+    padding: 2vh 1vw;
+}
