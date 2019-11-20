@@ -1,0 +1,14 @@
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/header-background.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.header-top-part{
+    height: 10vh;
+    padding: 1vh 0;
+    color: white;
+}
+
