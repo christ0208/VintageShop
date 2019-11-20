@@ -41,3 +41,11 @@
     margin: 1vh 1vw;
     padding: 2vh 1vw;
 }
+
+.content-bottom-part{
+    display: flex;
+}
+
+.content-bottom-part-container{
+    flex: 1;
+}

@@ -44,6 +44,34 @@ header{
 .header-top-part-nav-bar-item{
     flex: 1;
     padding: 1vh 1vw;
+    margin: 0 1vw;
+}
+
+.nav-bar-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.nav-bar-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    padding: 2vh 1vw;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.nav-bar-dropdown:hover .nav-bar-dropdown-content{
+    display: block;
+}
+
+.nav-bar-dropdown-content > ul {
+    list-style-type: none;
+}
+
+.nav-bar-dropdown-content > ul > li {
+    padding: 2vh 1vw;
+    border-bottom: 1px solid white;
 }
 
 .header-top-part-nav-bar-item__selected{
