@@ -44,8 +44,35 @@
 
 .content-bottom-part{
     display: flex;
+    background-color: lightgray;
+    padding: 2vh 1vw;
 }
 
 .content-bottom-part-container{
     flex: 1;
+}
+
+.content-bottom-part-right-component{
+    text-align: left;
+}
+
+.form-group-i2{
+    display: flex;
+}
+
+.form-group-i1{
+    margin-right: 2vw;
+}
+
+.form-subgroup{
+    flex: 1;
+    margin-right: 2vw;
+}
+
+.form-group-i2 input{
+    width: 100%;
+}
+
+.form-group-i1 input, .form-group-i1 textarea{
+    width: 100%;
 }
