@@ -13,6 +13,7 @@
     <script src="js/jquery.min.js"></script>
 </head>
 <body>
+    <div class="main-background"></div>
     <header>
         <div class="header-top-part">
             <div class="header-top-part-logo-container">
@@ -22,32 +23,36 @@
                 <div class="header-top-part-background-container"></div>
                 <div class="header-top-part-nav-bar">
                     <div class="header-top-part-nav-bar-item"></div>
-                    <div class="header-top-part-nav-bar-item header-top-part-nav-bar-item__selected">
+                    <div class="header-top-part-nav-bar-item nav-bar-item header-top-part-nav-bar-item__selected">
                         <div class="header-top-part-nav-bar-item-text">
                             Home
                         </div>
                     </div>
                     <div class="header-top-part-nav-bar-item">
-                        <div class="header-top-part-nav-bar-item-text nav-bar-dropdown">
-                            <span>Product</span>
+
+                    </div>
+                    <div class="header-top-part-nav-bar-item">
+                        <div class="header-top-part-nav-bar-item-text nav-bar-item nav-bar-dropdown">
+                            <div class="header-top-part-nav-bar-item-text">
+                                Product
+                            </div>
                             <div class="nav-bar-dropdown-content">
                                 <ul>
-                                    <li>Item</li>
-                                    <li>Furniture</li>
+                                    <a href="#"><li>Item</li></a>
+                                    <a href="#"><li>Furniture</li></a>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="header-top-part-nav-bar-item"></div>
                     <div class="header-top-part-nav-bar-item"></div>
-                    <div class="header-top-part-nav-bar-item"></div>
-                    <div class="header-top-part-nav-bar-item"></div>
-                    <div class="header-top-part-nav-bar-item">
+                    <div class="header-top-part-nav-bar-item nav-bar-item">
                         <div class="header-top-part-nav-bar-item-text">
                             About
                         </div>
                     </div>
-                    <div class="header-top-part-nav-bar-item">
+                    <div class="header-top-part-nav-bar-item"></div>
+                    <div class="header-top-part-nav-bar-item nav-bar-item">
                         <div class="header-top-part-nav-bar-item-text">
                             Register
                         </div>
@@ -60,8 +65,8 @@
             <div class="header-middle-part-container">
                 "We delivered the best product for our vintage enthusiast"
             </div>
-            <div class="header-middle-part-container">
-                -Since 2013-
+            <div class="header-middle-part-container text-italic">
+                Since 2013
             </div>
         </div>
         <div class="header-bottom-part">
@@ -81,37 +86,53 @@
                     We always ensure that our vintage enthusiast get the best product and always stay classy. See our latest product!
                 </div>
                 <div class="content-top-part-categories">
-                    <div class="content-top-part-category">
+                    <div class="content-top-part-category bg-dark-brown">
                         Book
                     </div>
-                    <div class="content-top-part-category">
+                    <div class="content-top-part-category bg-dark-brown">
                         Gramofon
                     </div>
-                    <div class="content-top-part-category">
+                    <div class="content-top-part-category bg-dark-brown">
                         Radio
                     </div>
-                    <div class="content-top-part-category">
+                    <div class="content-top-part-category bg-dark-brown">
                         Cabinet
                     </div>
-                    <div class="content-top-part-category">
+                    <div class="content-top-part-category bg-dark-brown">
                         Dresser
                     </div>
-                    <div class="content-top-part-category">
+                    <div class="content-top-part-category bg-dark-brown">
                         Clock
                     </div>
-                    <div class="content-top-part-category">
+                    <div class="content-top-part-category bg-dark-brown">
                         Wardrobe
                     </div>
+                </div>
+                <div class="content-top-part-sideshow">
+                    <div class="sideshow-content" id="first-slide"></div>
+                    <div class="sideshow-content" id="second-slide"></div>
+                    <div class="sideshow-content" id="third-slide"></div>
+                    <div class="sideshow-content" id="fourth-slide"></div>
+                    <div class="sideshow-content" id="fifth-slide"></div>
+                    <div class="sideshow-content" id="sixth-slide"></div>
+                </div>
+                <div class="content-top-part-sideshow-buttons">
+
                 </div>
             </div>
         </div>
         <div class="content-container content-bottom-part">
             <div class="content-bottom-part-container content-bottom-part-left-component">
-                
+
             </div>
             <div class="content-bottom-part-container content-bottom-part-right-component">
-                <div class="content-bottom-part-right-component-title">
-                    Contact Us
+                <div class="content-bottom-part-right-component-title text-bolder">
+                    <div class="d-inline-block bg-dark-brown content-bottom-part-right-component-title-left right-component-title-part">
+                        CONTACT
+                    </div>
+                    <div class="d-inline-block c-dark-brown">
+                        US
+                    </div>
                 </div>
                 <div class="content-bottom-part-right-component-form">
                     <form action="">
@@ -163,4 +184,6 @@
 
     </footer>
 </body>
+<script src="js/navbar-hovereffect.js"></script>
+<script src="js/slideshow-homepage.js"></script>
 </html>

@@ -3,8 +3,29 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    --default-color: #b87d41;
 }
 
 body{
     overflow-x: hidden;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.bg-dark-brown{
+    background-color: var(--default-color);
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.text-bolder{
+    font-weight: bolder;
+}
+
+.c-dark-brown{
+    color: var(--default-color);
 }
