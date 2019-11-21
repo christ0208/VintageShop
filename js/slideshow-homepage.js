@@ -13,8 +13,9 @@ function moveSlideshow(){
     if(showedSideshow >= MAX_SLIDESHOWS) showedSideshow = 0;
 
     $('.sideshow-content').eq(showedSideshow).css({
-       marginLeft: + containerWidth,
-       display: 'block'
+        top:0,
+        left: +containerWidth + 1,
+        display: 'block'
     });
 
     $('.sideshow-content').eq(showedSideshow - 1).animate({left: - containerWidth}, 500, function(){
@@ -24,5 +25,5 @@ function moveSlideshow(){
         $('.sideshow-content').eq(showedSideshow - 1).css('left', '0');
     });
 
-    $('.sideshow-content').eq(showedSideshow).animate({marginLeft: 0}, 500);
+    $('.sideshow-content').eq(showedSideshow).animate({top:0, left: 0}, 500);
 }
