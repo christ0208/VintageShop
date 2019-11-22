@@ -1,0 +1,13 @@
+@import 'header-top-part-substyles.css';
+@import 'header-middle-part-substyles.css';
+@import 'header-bottom-part-substyles.css';
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0);
+    z-index: 2;
+
+    text-align: center;
+}
+

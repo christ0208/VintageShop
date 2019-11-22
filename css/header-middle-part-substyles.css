@@ -1,0 +1,8 @@
+.header-middle-part{
+    position: relative;
+    z-index: 0;
+}
+
+.header-middle-part-container{
+    font-size: 4vh;
+}

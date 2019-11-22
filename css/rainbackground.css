@@ -1,0 +1,22 @@
+/*credits to RY18-2*/
+.rain-background{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.drop{
+    width: 1px;
+    height: 80px;
+    /*background: linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);*/
+    background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6)));
+    background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+    position: absolute;
+    animation: falling 0.74s linear infinite;
+    z-index: 0;
+}
+
+@keyframes falling{
+    to {margin-top: 100vh;}
+}
