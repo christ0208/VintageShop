@@ -5,6 +5,7 @@
 @import 'index-slideshow-substyles.css';
 @import 'index-content-top-part-substyles.css';
 @import 'index-content-bottom-part-substyles.css';
+@import 'footer-mainstyles.css';
 
 .content{
     display: flex;

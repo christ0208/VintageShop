@@ -1,0 +1,22 @@
+footer{
+    height: 4vh;
+    background-color: #b87e42;
+    padding: 1vh 1vw;
+    display: flex;
+}
+
+.footer-component{
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+}
+
+.footer-container-square, .footer-container-circle, .footer-container-hexagon{
+    padding: .4em;
+    background-color: white;
+    display: inline-block;
+}
+
+.footer-container-circle{
+    border-radius: 50%;
+}

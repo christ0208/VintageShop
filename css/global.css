@@ -13,6 +13,14 @@ body{
     overflow-x: hidden;
 }
 
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
 .text-italic{
     font-style: italic;
 }
@@ -35,6 +43,10 @@ body{
 
 .c-dark-brown{
     color: var(--default-color);
+}
+
+.c-white{
+    color: white;
 }
 
 .symbol-dot{

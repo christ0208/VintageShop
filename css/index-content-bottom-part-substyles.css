@@ -55,8 +55,23 @@
     width: 100%;
 }
 
-.form-group-i1 input, .form-group-i1 textarea{
+.form-group-i1 input[type=text], .form-group-i1 textarea{
     width: 100%;
+}
+
+.form-group-i1 input[type=submit]{
+    background-color: #bf8a54;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+}
+
+.form-group-i1 input[type=submit]:hover{
+    background-color: #cca277;
 }
 
 .form-group-i1 textarea{
