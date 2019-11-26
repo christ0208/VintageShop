@@ -5,7 +5,7 @@ resetMarkButtonSlideshow();
 markButtonSlideshow();
 
 setButtonSlideshowListener();
-setInterval(moveSlideshow, 3000);
+var intervalObj = setInterval(moveSlideshow, 3000);
 
 function setButtonSlideshowListener(){
     $('.sideshow-button').each(function(i, obj){
@@ -23,9 +23,11 @@ function moveSlideshow(){
 }
 
 function moveSlideshowBasedOnIndex(index){
+    clearInterval(intervalObj);
     showedSideshow = index;
 
     changeSlide(showedSideshow);
+    intervalObj = setInterval(moveSlideshow, 3000);
 }
 
 function changeSlide(index){

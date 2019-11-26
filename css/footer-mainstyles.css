@@ -1,20 +1,31 @@
 footer{
-    height: 4vh;
+    height: 5vh;
     background-color: #b87e42;
     padding: 1vh 1vw;
     display: flex;
 }
 
 .footer-component{
-    display: inline-block;
     flex: 1;
-    text-align: center;
+}
+
+.footer-component > div{
+    display: inline-block;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .footer-container-square, .footer-container-circle, .footer-container-hexagon{
     padding: .4em;
     background-color: white;
     display: inline-block;
+}
+
+.footer-component a{
+    color: black;
 }
 
 .footer-container-circle{
