@@ -37,6 +37,10 @@ body{
     background-color: var(--hover-color);
 }
 
+.bg-white{
+    background-color: white;
+}
+
 .d-inline-block{
     display: inline-block;
 }
@@ -55,6 +59,10 @@ body{
 
 .c-black{
     color: black;
+}
+
+.c-red{
+    color: red;
 }
 
 .symbol-dot{
