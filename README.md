@@ -3,11 +3,12 @@
     - View (v)
     - Dropdown (v)
     - Slideshow/Carousel (v)
-    - Contact Us Client Side Validation
+    - Contact Us Client Side Validation (v)
     - Search Bar to Vintage Item / Furniture with Searching (Optional)
     - Links in Top Content Part
-    - Links in Footer for Social Media
+    - Links in Footer for Social Media (v)
     - Responsive
+    - Modal Box (v)
 2. Vintage Item Page
     - View
     - Responsive
@@ -23,6 +24,7 @@
     - View (v)
     - Client Side Validation
     - Responsive
+    - Modal Box
 
 Need to be checked:
 1. Logo (.psd)
