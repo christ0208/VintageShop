@@ -1,0 +1,69 @@
+.modal-supporting-background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.modal-box{
+    width: 17%;
+    height: 12%;
+    position: fixed;
+    z-index: 7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1vh 1vw;
+    border-radius: 8px;
+    display: none;
+}
+
+.top-part-modal-box{
+    width: 100%;
+    height: 70%;
+}
+
+.northeast-part-modal-box, .northwest-part-modal-box{
+    display: inline-block;
+}
+
+.northwest-part-modal-box{
+    width: 30%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.rel-center{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.northeast-part-modal-box{
+    height: 100%;
+}
+
+.circle-border{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: green;
+}
+
+.bottom-part-modal-box{
+    text-align: center;
+}
+
+.bottom-part-modal-box button{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 1vh 1vw;
+}

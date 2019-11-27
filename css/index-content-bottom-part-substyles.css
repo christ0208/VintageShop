@@ -3,6 +3,7 @@
     background-image: url("../assets/contactusbackground-homepage.jpg");
     background-repeat: no-repeat;
     background-size: 100% 80vh;
+    min-height: 80vh;
     padding: 2vh 1vw;
 }
 
@@ -88,4 +89,5 @@
     padding: 1vh 1vw;
     border-radius: 8px;
     text-align: center;
+    display: none;
 }
