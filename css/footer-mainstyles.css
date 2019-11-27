@@ -19,7 +19,7 @@ footer{
 }
 
 .footer-container-square, .footer-container-circle, .footer-container-hexagon{
-    padding: .4em;
+    padding: .4vw;
     background-color: white;
     display: inline-block;
 }

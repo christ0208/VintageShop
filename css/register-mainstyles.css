@@ -1,0 +1,13 @@
+@import 'global.css';
+@import 'register-background-substyles.css';
+@import 'register-form-substyles.css';
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+}
+
+.main-container-part{
+    flex: 1;
+}
