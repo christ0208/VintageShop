@@ -30,7 +30,7 @@
 }
 
 .content-top-part-sideshow{
-    width: 80%;
+    width: 100%;
     height: 80vh;
     background-color: saddlebrown;
     margin: 1vh auto;
@@ -41,7 +41,6 @@
 .sideshow-content{
     width: 100%;
     height: 100%;
-    /*display: none;*/
 }
 
 .content-top-part-sideshow-buttons{
