@@ -27,6 +27,10 @@
     font-size: 3vh;
 }
 
+.form-title-container span{
+    font-size: 5vh;
+}
+
 .form-group-input{
     margin: 1vh 0;
 }
@@ -50,6 +54,7 @@ form select{
 }
 
 form input[type=submit]{
+    margin: 3vh 1vw;
     width: 20%;
     padding: 1vh 1vw;
     border: none;

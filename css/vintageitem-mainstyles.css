@@ -2,3 +2,55 @@
 @import 'mainbackground.css';
 @import 'header-mainstyles.css';
 @import 'footer-mainstyles.css';
+
+.content-products-container{
+    width: 100%;
+    height: 50vh;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+}
+
+.content-products-slides{
+    width: 100%;
+    height: 100%;
+}
+
+.content-product-slide{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 90%;
+    margin: 1vh 0 0 3vw;
+    background-color: var(--default-color);
+}
+
+.content-product-image{
+    background-image: url("../assets/slide-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+
+.content-product-title{
+    height: 10%;
+}
+
+.content-product-description{
+    height: 40%;
+}
+
+.content-products-left-button, .content-products-right-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 5vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1vh 1vw;
+}
+
+.content-products-right-button{
+    right: 0;
+    float: right;
+}
