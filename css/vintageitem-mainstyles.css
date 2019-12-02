@@ -5,8 +5,6 @@
 
 .content-products-container{
     width: 100%;
-    height: 50vh;
-    display: inline-block;
     white-space: nowrap;
     position: relative;
 }
@@ -14,31 +12,77 @@
 .content-products-slides{
     width: 100%;
     height: 100%;
+    display: inline-block;
 }
 
 .content-product-slide{
     display: inline-block;
     position: relative;
-    width: 20%;
-    height: 90%;
-    margin: 1vh 0 0 3vw;
+    width: 16.67%;
+    margin: 1px 0 5px 3vw;
     background-color: var(--default-color);
 }
 
+.content-product-flex{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
 .content-product-image{
-    background-image: url("../assets/slide-1.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     width: 100%;
-    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.content-product-image img{
+    max-width: 100%;
+    height: 300px;
+    flex: 1;
+    object-fit: contain;
+}
+
+.content-product-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    max-height: 300px;
+    overflow: hidden;
+    color: lightgray;
 }
 
 .content-product-title{
-    height: 10%;
+    flex: 2;
+    white-space: normal;
+    word-wrap: break-word;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .content-product-description{
-    height: 40%;
+    flex: 1;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-product-button{
+    text-align: center;
+}
+
+.content-product-button button{
+    background-color: #bf8a54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content-product-button button:hover{
+    background-color: #cca277;
 }
 
 .content-products-left-button, .content-products-right-button{
@@ -48,6 +92,7 @@
     font-size: 5vh;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 1vh 1vw;
+    cursor: pointer;
 }
 
 .content-products-right-button{
