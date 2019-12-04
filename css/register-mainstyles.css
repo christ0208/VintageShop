@@ -5,9 +5,17 @@
 .main-container{
     width: 100vw;
     height: 100vh;
-    display:flex;
+    /*display: flex;*/
 }
 
 .main-container-part{
-    flex: 1;
+    /*flex: 1;*/
+}
+
+.registration-part-form{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
 }
