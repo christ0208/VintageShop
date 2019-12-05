@@ -32,7 +32,7 @@
 .content-product-slide{
     display: inline-block;
     position: relative;
-    width: 16.67%;
+    width: 30%;
     margin: 1px 0 5px 3vw;
     padding: 17.5px 5px;
     background-color: var(--default-color);
@@ -62,7 +62,7 @@
     flex-direction: column;
     flex: 1;
     padding: 10px;
-    max-height: 300px;
+    max-height: 500px;
     overflow: hidden;
     color: lightgray;
 }
@@ -80,7 +80,7 @@
 }
 
 .content-product-description{
-    flex: 1;
+    flex: 10;
     white-space: normal;
     word-wrap: break-word;
     overflow: hidden;

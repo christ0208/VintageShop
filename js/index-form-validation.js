@@ -4,11 +4,11 @@ function submitForm(e){
     e.preventDefault();
 
     let isValidated = true;
-    let formdata = new FormData(e.target);
-    let name = formdata.get("name");
-    let number = formdata.get("number");
-    let email = formdata.get("email");
-    let message = formdata.get("message");
+    let formData = new FormData(e.target);
+    let name = formData.get("name");
+    let number = formData.get("number");
+    let email = formData.get("email");
+    let message = formData.get("message");
 
     if(name.length < 5){
         $('#error-message').text("Name must be more than or equal 5 characters");
