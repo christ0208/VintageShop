@@ -18,6 +18,11 @@
     outline: none;
 }
 
+.header-bottom-part input:focus{
+    box-shadow: 0px 0px 30px 2px #000;
+    transition: all .5s;
+}
+
 .header-bottom-part button{
     width: 5vw;
     height: 10vh;

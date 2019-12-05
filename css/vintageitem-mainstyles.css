@@ -3,10 +3,24 @@
 @import 'header-mainstyles.css';
 @import 'footer-mainstyles.css';
 
+.content-container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
 .content-products-container{
     width: 100%;
     white-space: nowrap;
     position: relative;
+    background-color: var(--default-color);
+}
+
+.content-title{
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .content-products-slides{
@@ -20,6 +34,7 @@
     position: relative;
     width: 16.67%;
     margin: 1px 0 5px 3vw;
+    padding: 17.5px 5px;
     background-color: var(--default-color);
 }
 
@@ -53,11 +68,15 @@
 }
 
 .content-product-title{
-    flex: 2;
+    flex: 4;
     white-space: normal;
     word-wrap: break-word;
     font-weight: bolder;
     text-align: center;
+    overflow: hidden;
+}
+.content-product-title{
+    content: "...";
 }
 
 .content-product-description{
