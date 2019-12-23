@@ -4,13 +4,13 @@ const redirection = {
     "furniture-button": "vintagefurniture.html",
     "about-button": "about.html",
     "register-button": "register.html",
-    "book-button": "vintageitem.html",
-    "gramophone-button": "vintageitem.html",
-    "radio-button": "vintageitem.html",
-    "cabinet-button": "vintagefurniture.html",
-    "dresser-button": "vintagefurniture.html",
-    "clock-button": "vintagefurniture.html",
-    "wardrobe-button": "vintagefurniture.html"
+    "book-button": "vintageitem.html#books",
+    "gramophone-button": "vintageitem.html#gramophones",
+    "radio-button": "vintageitem.html#radios",
+    "cabinet-button": "vintagefurniture.html#cabinets",
+    "dresser-button": "vintagefurniture.html#dressers",
+    "clock-button": "vintagefurniture.html#clocks",
+    "wardrobe-button": "vintagefurniture.html#wardrobes"
 }
 
 function changePage(e){
