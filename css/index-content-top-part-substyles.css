@@ -43,6 +43,10 @@
     height: 100%;
 }
 
+.content-top-part-category{
+    cursor: pointer;
+}
+
 .content-top-part-sideshow-buttons{
     text-align: center;
 }
