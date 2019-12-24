@@ -54,3 +54,9 @@
 .sideshow-button{
     display: inline-block;
 }
+
+@media screen and (max-width: 800px){
+    .content-top-part-categories{
+        flex-direction: column;
+    }
+}

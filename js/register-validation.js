@@ -10,6 +10,7 @@ function submitForm(e){
     let agree = formdata.get("agreement");
     if(notEmpty(name,email,gender,type,agree)){
         $('#error-message').text("");
+        window.location.replace("index.html");
     }
 }
 
