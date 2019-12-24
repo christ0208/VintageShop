@@ -9,10 +9,8 @@ function submitForm(e){
     let type = formdata.get("member");
     let agree = formdata.get("agreement");
     if(notEmpty(name,email,gender,type,agree)){
-        if(validateEmail(email)){
-            $('#error-message').text("");
-        }
-}
+        $('#error-message').text("");
+    }
 }
 
 
@@ -22,20 +20,27 @@ function notEmpty(name,email,gender,type,agree){
         $('#error-message').text("Name must be filled");
         return false;
     }
+    else if(name.length < 5){
+        $('#error-message').text("Name must be more than or equal 5 characters");
+        return false;
+    }
     else if(!validateNone(email)){
         $('#error-message').text("Email must be filled");
         return false;
     }
-    else if(gender!="on"){
-            $('#error-message').text("Choose your gender");
-            return false;
-        
+    else if(!validateEmail(email)){
+        $('#error-message').text("Email must be in email format");
+        return false;
     }
-    else if(!validateNone(type)){
+    else if(gender !== 'Male' && gender !== 'Female'){
+        $('#error-message').text("Choose your gender");
+        return false;
+    }
+    else if(type !== 'Standard' && type !== 'Extended'){
         $('#error-message').text("Choose your membership type");
         return false;
     }
-    else if(agree!="on"){
+    else if(agree !== "on"){
         $('#error-message').text("You have to agree to our terms and conditions");
         return false;
     }
