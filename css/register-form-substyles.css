@@ -74,3 +74,26 @@ form input[type=submit]{
 form input[type=submit]:hover{
     background-color: #cca277;
 }
+
+@media screen and (max-width: 1248px){
+    .form-logo-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    form input[type=submit]{
+        background-color: gray;
+        transition: all .5s ease;
+    }
+
+    form input[type=submit]:hover{
+        background-color: var(--default-color);
+    }
+}
+
+@media screen and (max-width: 425px){
+    .form-title-container {
+        font-size: 5vw;
+    }
+}
