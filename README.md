@@ -7,15 +7,15 @@
     - Search Bar to Vintage Item / Furniture with Searching (Optional)
     - Links in Top Content Part (v)
     - Links in Footer for Social Media (v)
-    - Responsive
+    - Responsive (v)
     - Modal Box (v)
 2. Vintage Item Page
     - View (v)
-    - Responsive
+    - Responsive (v)
     - Open Detail Page (Optional)
 3. Vintage Furniture Page
     - View (v)
-    - Responsive
+    - Responsive (v)
     - Open Detail Page (Optional)
 4. About Us Page
     - View
@@ -23,7 +23,7 @@
 5. Registration Page
     - View (v)
     - Client Side Validation (v)
-    - Responsive
+    - Responsive (v)
     - Modal Box (v)
 
 Need to be checked:
