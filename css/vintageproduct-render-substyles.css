@@ -1,0 +1,122 @@
+.content-container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content-products-container{
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    background-color: var(--default-color);
+}
+
+.content-title{
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.content-products-slides{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.content-product-slide{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin: 1px 0 5px 3vw;
+    padding: 17.5px 5px;
+    background-color: var(--default-color);
+}
+
+.content-product-flex{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.content-product-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content-product-image img{
+    max-width: 100%;
+    height: 300px;
+    flex: 1;
+    object-fit: contain;
+}
+
+.content-product-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    max-height: 500px;
+    overflow: hidden;
+    color: lightgray;
+}
+
+.content-product-title{
+    flex: 4;
+    white-space: normal;
+    word-wrap: break-word;
+    font-weight: bolder;
+    text-align: center;
+    overflow: hidden;
+}
+.content-product-title{
+    content: "...";
+}
+
+.content-product-description{
+    flex: 10;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-product-button{
+    text-align: center;
+}
+
+.content-product-button button{
+    background-color: #bf8a54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content-product-button button:hover{
+    background-color: #cca277;
+}
+
+.content-products-left-button, .content-products-right-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 5vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+.content-products-right-button{
+    right: 0;
+    float: right;
+}
+
+
+@media screen and (max-width: 800px){
+    .content-product-slide{
+        width: 100%;
+    }
+}

@@ -5,11 +5,6 @@
 .main-container{
     width: 100vw;
     height: 100vh;
-    /*display: flex;*/
-}
-
-.main-container-part{
-    /*flex: 1;*/
 }
 
 .registration-part-form{
@@ -18,4 +13,16 @@
     position: relative;
     left: 100%;
     transform: translateX(-100%);
+}
+
+@media screen and (max-width: 800px){
+    .registration-part-form{
+        width: 50%;
+        height: 55%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 8px;
+        background-color: rgba(128,128,128,0.8);
+    }
 }

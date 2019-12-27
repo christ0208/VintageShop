@@ -10,7 +10,12 @@ const redirection = {
     "cabinet-button": "vintagefurniture.html#cabinets",
     "dresser-button": "vintagefurniture.html#dressers",
     "clock-button": "vintagefurniture.html#clocks",
-    "wardrobe-button": "vintagefurniture.html#wardrobes"
+    "wardrobe-button": "vintagefurniture.html#wardrobes",
+    "home-button-alt": "index.html",
+    "item-button-alt": "vintageitem.html",
+    "furniture-button-alt": "vintagefurniture.html",
+    "about-button-alt": "about.html",
+    "register-button-alt": "register.html"
 }
 
 function changePage(e){

@@ -5,17 +5,17 @@
     - Slideshow/Carousel (v)
     - Contact Us Client Side Validation (v)
     - Search Bar to Vintage Item / Furniture with Searching (Optional)
-    - Links in Top Content Part
+    - Links in Top Content Part (v)
     - Links in Footer for Social Media (v)
-    - Responsive
+    - Responsive (v)
     - Modal Box (v)
 2. Vintage Item Page
     - View (v)
-    - Responsive
+    - Responsive (v)
     - Open Detail Page (Optional)
 3. Vintage Furniture Page
     - View (v)
-    - Responsive
+    - Responsive (v)
     - Open Detail Page (Optional)
 4. About Us Page
     - View
@@ -23,13 +23,13 @@
 5. Registration Page
     - View (v)
     - Client Side Validation (v)
-    - Responsive
-    - Modal Box
+    - Responsive (v)
+    - Modal Box (v)
 
 Need to be checked:
 1. Logo (.psd) (v)
 2. Web Template (.psd) (v)
-3. Design Concept
+3. Design Concept (v)
 4. Web Structure (v)
 5. CSS (v)
 6. Responsive
@@ -39,5 +39,5 @@ Need to be checked:
 10. Slider Image (v)
 11. Form Component (v)
 12. Form Validation (v)
-13. Compatibility
-14. Consistency
+13. Compatibility (v)
+14. Consistency (v)
